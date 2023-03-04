@@ -48,7 +48,8 @@ dev_dependencies:
   flutter_lints: ^2.0.1
   auto_route_generator:
   build_runner:
-  permission_handler: ^10.1.0
+
+
 
 
 flutter:

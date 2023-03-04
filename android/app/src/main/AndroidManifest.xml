@@ -41,12 +41,13 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="{com.example.web_sample_v2}.provider"
+            android:authorities="com.example.web_sample_v2.provider"
             android:exported="false"
             android:grantUriPermissions="true">
+
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
+                android:resource="@xml/provider_paths"></meta-data>
         </provider>
     </application>
 </manifest>

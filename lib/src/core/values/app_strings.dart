@@ -4,4 +4,5 @@
 class AppStrings {
   static const urlChangedTitle = 'Page Updated!';
   static const urlChangedDesc = 'Page has been refreshed';
+  static const homePage = 'Home Page';
 }

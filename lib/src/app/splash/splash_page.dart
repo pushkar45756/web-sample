@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:web_sample_v2/src/core/route/router.gr.dart';
+import 'package:web_sample_v2/src/core/values/app_assets.dart';
 
 ///Author-Pushkar Srivastava
 ///Date-03/03/23
@@ -33,7 +34,7 @@ class _SplashPageState extends State<SplashPage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/images/web_icon.jpeg'),
+            Image.asset(AppAssets.splashIcon),
           ],
         ),
       ),

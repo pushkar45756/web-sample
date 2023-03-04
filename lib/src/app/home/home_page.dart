@@ -4,6 +4,7 @@ import 'package:flutter_webview_pro/webview_flutter.dart';
 import 'package:web_sample_v2/src/shared/network/api_end_points.dart';
 import 'package:web_sample_v2/src/shared/styles/text_styles.dart';
 
+import '../../core/values/app_strings.dart';
 import '../../shared/widgets/general_dialog.dart';
 
 ///Author-Pushkar Srivastava
@@ -51,7 +52,7 @@ class _HomePageState extends State<HomePage> {
             ],
             centerTitle: true,
             title: Text(
-              "Home Page",
+              AppStrings.homePage,
               style: regularStyle(),
             ),
           ),

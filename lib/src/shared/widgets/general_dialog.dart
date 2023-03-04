@@ -4,6 +4,8 @@ import 'package:web_sample_v2/src/core/values/app_colors.dart';
 import 'package:web_sample_v2/src/core/values/app_strings.dart';
 import 'package:web_sample_v2/src/shared/styles/text_styles.dart';
 
+import '../../core/values/app_assets.dart';
+
 ///Author-Pushkar Srivastava
 ///Date-03/03/23
 
@@ -31,7 +33,7 @@ showAppGeneralDialog(
             height: size.height * .3,
             child: Column(
               children: [
-                Image.asset('assets/images/refresh_icon.png'),
+                Image.asset(AppAssets.refreshIndicator),
                 SizedBox(height: size.height * 0.05),
                 Text(
                   AppStrings.urlChangedDesc,
